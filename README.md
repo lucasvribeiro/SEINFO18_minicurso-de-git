@@ -1,9 +1,3 @@
----
-title: Minicurso de Git e GitHub
-subtitle: V SEINFO 2018
-author: Giorgio Braz e Lucas Ribeiro
----
-
 # Minicurso de Git e GitHub - SEINFO 2018
 Minicurso da V Semana de Informática da UTFPR-CM (Git e GitHub). Ministrado por: Giorgio Braz e Lucas Ribeiro
 
@@ -16,7 +10,7 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 ### Instalando o Git no Windows
 - http://msysgit.github.com
 
-# Configuração inicial - aula 1
+# Configuração inicial
 - `git config --global user.name “seuNome”`
 - `git config --global user.email seuEmail`
 
@@ -27,7 +21,7 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 - `git commit -a -m “first commit”`
 - `git push`
 
-# Controle de versão - aula 2
+# Controle de versão
 (apenas 1 desenvolvedor)
 
 - `git init para criar um novo repositório`
@@ -36,7 +30,7 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 - `git commit -m “first commit”`
 - Não quero controlar essa versão -> crie um arquivo.gitignore e coloque o nome do(s) arquivo(s) desejado(s) -> somente uma informação por linha;
 
-# Visualização de alterações - aula 3
+# Visualização de alterações
 - `git diff` usado no working directory
 - `git diff --staged` usado na staging area
 - `git log` mostra todos os commits feitos no projeto
@@ -45,7 +39,7 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 - `git log --pretty=oneline` mostra a chave do commit
 - `gitk` usar uma interface gráfica
 
-# Desfazendo algo - aula 4
+# Desfazendo algo
 #### Editando um commit recente
 - `git add .`
 - `git commit --amend -m "Novas funcionalidades (edição)"`
@@ -59,7 +53,7 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 #### Para remover
 - `git rm file_name`
 
-# Tags e branches - aula 5
+# Tags e branches
 - Criar uma tag (no commit atual) `git tag -a <v1.0> -m "Versão 1.0"`
 - Criar uma tag (num commit antigo) `git tag -a v0.0 CHAVE -m "Versão 0.0"`
 - Para listar as tags `git tag`
@@ -79,17 +73,6 @@ OU...
 - Transferindo as alterações do ‘teste’ para o ‘master’ `git merge teste`
 - Deletar um branch `git branch -d teste`
 - Listar os branches num repositório `git branch`
-
-# Git em rede local - aula 6
-(Máquina local como servidor - 2º ambiente de desenvolvimento)
-
-# Git e GitHub - aula 7
-- Autorizando seu computador ssh-keygen
-- `git clone endereço...`
-
-# Colaborando com um projeto - aula 8
-- Fork
-- Pull requests
 
 ----
 ### Referências
