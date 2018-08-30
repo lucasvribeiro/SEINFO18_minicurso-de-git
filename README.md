@@ -1,3 +1,14 @@
+---
+title: "Git + GitHub"
+author: Giorgio Braz e Lucas Ribeiro
+date: Agosto 30, 2018
+output:
+  beamer_presentation:
+    theme: "AnnArbor"
+    colortheme: "albatross"
+    fonttheme: "structurebold"
+---
+
 # Minicurso de Git e GitHub - SEINFO 2018
 Minicurso da V Semana de Informática da UTFPR-CM (Git e GitHub). Ministrado por: Giorgio Braz e Lucas Ribeiro
 
@@ -22,8 +33,6 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 - `git push`
 
 # Controle de versão
-(apenas 1 desenvolvedor)
-
 - `git init para criar um novo repositório`
 - `git status`
 - `git add .`
@@ -64,8 +73,6 @@ O Git é um sistema de controle de versão distribuído (não centralizado), ou 
 
 #### Criando testes ou novas versões utilizando um branch
 - Criar e trocar de uma só vez `git checkout -b teste`
-
-OU...
 
 #### Criar um novo branch git branch teste
 - Movendo o working directory para o ambiente de teste `git checkout teste`
